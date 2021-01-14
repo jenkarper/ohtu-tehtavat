@@ -40,7 +40,7 @@ public class Statistics {
         ArrayList<Player> topScorers = new ArrayList<Player>();
         Iterator<Player> playerIterator = players.iterator();
         
-        while (howMany>=0) {
+        while (howMany>0) { // Edited the condition so that exactly the number of players specified in parameter are retrieved.
             topScorers.add( playerIterator.next() );            
             howMany--;
         }
