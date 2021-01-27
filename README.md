@@ -1,15 +1,21 @@
 # ohtu-tehtavat
 
-### Tehtävä 15
+## Viikko 1
 
-- [Reader-rajapinta](https://github.com/jenkarper/ohtu-tehtavat/blob/main/NhlStatistics1/src/main/java/ohtuesimerkki/Reader.java)
+- [Tehtävä 14: Riippuvuuksien injektointi 1](https://github.com/jenkarper/ohtu-tehtavat/tree/main/viikko1/tehtavat14-16/RiippuvuuksienInjektointi1)
 
-- [PlayerReader](https://github.com/jenkarper/ohtu-tehtavat/blob/main/NhlStatistics1/src/main/java/ohtuesimerkki/PlayerReader.java)
+- [Tehtävät 15-16: NHLStatistics1](https://github.com/jenkarper/ohtu-tehtavat/tree/main/viikko1/tehtavat14-16/NhlStatistics1)
 
-- [Statistics-luokan konstruktori](https://github.com/jenkarper/ohtu-tehtavat/blob/main/NhlStatistics1/src/main/java/ohtuesimerkki/Statistics.java#L12)
+## Viikko 2
 
-- [Pääohjelma](https://github.com/jenkarper/ohtu-tehtavat/blob/main/NhlStatistics1/src/main/java/ohtuesimerkki/Main.java)
+- [Tehtävä 1: Gradle-tutoriaali](https://github.com/jenkarper/ohtu-tehtavat/tree/main/viikko2/gradletutoriaali)
 
-### Tehtävä 16
+- [Tehtävä 2: Koodin staattinen analyysi](https://github.com/jenkarper/ohtu-2020-viikko1/blob/main/config/checkstyle/checkstyle.xml)
 
-- [StatisticsTest](https://github.com/jenkarper/ohtu-tehtavat/blob/main/NhlStatistics1/src/test/java/ohtuesimerkki/StatisticsTest.java)
+- [Tehtävä 3: Staattinen analyysi ja GitHub Actions](https://github.com/jenkarper/ohtu-2020-viikko1/blob/main/.github/workflows/gradle.yml)
+
+- Tehtävä 7: Branchit ja GitHub ([haara1](https://github.com/jenkarper/ohtu-tehtavat/tree/haara1) ja [haara2](https://github.com/jenkarper/ohtu-tehtavat/tree/haara2))
+
+- [Tehtävä 8: Epäajantasaisen kopion pushaaminen](https://github.com/jenkarper/ohtu-tehtavat/commit/4984e8465839c11c5d564e710701d1c07a44dfb9)
+
+- [Tehtävät 9-12: Riippuvuudet ja singletonit verkkokaupassa](https://github.com/jenkarper/ohtu-tehtavat/tree/main/viikko2/Verkkokauppa1)
