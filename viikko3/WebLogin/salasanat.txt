@@ -1,0 +1,7 @@
+pekka;akkeo
+kayttaja;salasana
+pekka31554;salasana
+pekkah;salainen234
+pekka2494;salasana
+pekka28275;salasana
+pekka99336;salasana
