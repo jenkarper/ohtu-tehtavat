@@ -22,10 +22,10 @@
 
 ## Viikko 3
 
--[Tehtävät 1-3: Gradle ja riippuvuudet](https://github.com/jenkarper/ohtu-tehtavat/tree/main/viikko3/nhlreader)
+- [Tehtävät 1-3: Gradle ja riippuvuudet](https://github.com/jenkarper/ohtu-tehtavat/tree/main/viikko3/nhlreader)
 
--[Tehtävä 4: Cucumber-johdanto](https://github.com/jenkarper/ohtu-tehtavat/tree/main/viikko3/HelloCucumber)
+- [Tehtävä 4: Cucumber-johdanto](https://github.com/jenkarper/ohtu-tehtavat/tree/main/viikko3/HelloCucumber)
 
--[Tehtävät 5-6: LoginCucumber](https://github.com/jenkarper/ohtu-tehtavat/tree/main/viikko3/LoginCucumber)
+- [Tehtävät 5-6: LoginCucumber](https://github.com/jenkarper/ohtu-tehtavat/tree/main/viikko3/LoginCucumber)
 
--[Tehtävät 7-11: WebLogin](https://github.com/jenkarper/ohtu-tehtavat/tree/main/viikko3/WebLogin)
+- [Tehtävät 7-11: WebLogin](https://github.com/jenkarper/ohtu-tehtavat/tree/main/viikko3/WebLogin)
