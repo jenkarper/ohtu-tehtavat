@@ -19,3 +19,13 @@
 - [Tehtävä 8: Epäajantasaisen kopion pushaaminen](https://github.com/jenkarper/ohtu-tehtavat/commit/4984e8465839c11c5d564e710701d1c07a44dfb9)
 
 - [Tehtävät 9-12: Riippuvuudet ja singletonit verkkokaupassa](https://github.com/jenkarper/ohtu-tehtavat/tree/main/viikko2/Verkkokauppa1)
+
+## Viikko 3
+
+-[Tehtävät 1-3: Gradle ja riippuvuudet](https://github.com/jenkarper/ohtu-tehtavat/tree/main/viikko3/nhlreader)
+
+-[Tehtävä 4: Cucumber-johdanto](https://github.com/jenkarper/ohtu-tehtavat/tree/main/viikko3/HelloCucumber)
+
+-[Tehtävät 5-6: LoginCucumber](https://github.com/jenkarper/ohtu-tehtavat/tree/main/viikko3/LoginCucumber)
+
+-[Tehtävät 7-11: WebLogin](https://github.com/jenkarper/ohtu-tehtavat/tree/main/viikko3/WebLogin)
