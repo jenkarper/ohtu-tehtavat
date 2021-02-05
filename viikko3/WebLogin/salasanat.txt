@@ -5,3 +5,5 @@ pekkah;salainen234
 pekka2494;salasana
 pekka28275;salasana
 pekka99336;salasana
+jukka;akkuj
+liisa;salainen1
