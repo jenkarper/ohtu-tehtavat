@@ -19,7 +19,7 @@ public class KauppaTest {
         pankki = mock(Pankki.class);
         
         viite = mock(Viitegeneraattori.class);
-        when(viite.uusi()).thenReturn(42);
+        when(viite.uusi()).thenReturn(42).thenReturn(43).thenReturn(44);
         
         varasto = mock(Varasto.class);
         when(varasto.saldo(1)).thenReturn(10);
@@ -79,6 +79,63 @@ public class KauppaTest {
         k.aloitaAsiointi();
         k.lisaaKoriin(1);
         k.lisaaKoriin(2);
+        k.tilimaksu("pekka", "12345");
+
+        verify(pankki).tilisiirto("pekka", 42, "12345", "33333-44455", 5);
+    }
+    
+    @Test
+    public void uusiAsiointiNollaaEdellisenOstoskorin() {
+        k.aloitaAsiointi();
+        k.lisaaKoriin(1);
+        k.tilimaksu("pekka", "12345");
+        
+        verify(pankki, times(1)).tilisiirto(anyString(), anyInt(), anyString(), anyString(), anyInt());
+        
+        k.aloitaAsiointi();
+        k.lisaaKoriin(1);
+        k.tilimaksu("lasse", "54321");
+        
+        verify(pankki).tilisiirto(eq("lasse"), anyInt(), eq("54321"), eq("33333-44455"), eq(5));
+    }
+    
+    @Test
+    public void kauppaPyytaaUudenViitenumeronJokaiselleMaksutapahtumalle() {
+        k.aloitaAsiointi();
+        k.lisaaKoriin(1);
+        k.tilimaksu("pekka", "12345");
+        
+        verify(pankki).tilisiirto(anyString(), eq(42), anyString(), anyString(), anyInt());
+        
+        k.aloitaAsiointi();
+        k.lisaaKoriin(1);
+        k.tilimaksu("pekka", "12345");
+        
+        verify(pankki).tilisiirto(anyString(), eq(43), anyString(), anyString(), anyInt());
+        
+        k.aloitaAsiointi();
+        k.lisaaKoriin(1);
+        k.tilimaksu("pekka", "12345");
+        
+        verify(pankki).tilisiirto(anyString(), eq(44), anyString(), anyString(), anyInt());
+    }
+    
+    @Test
+    public void poistettuTuotePalautuuVarastoon() {
+        k.aloitaAsiointi();
+        k.lisaaKoriin(1);
+        k.lisaaKoriin(1);
+        k.poistaKorista(1);
+        
+        verify(varasto, times(1)).palautaVarastoon(anyObject());
+    }
+    
+    @Test
+    public void poistettuTuoteEiNayLoppusummassa() {
+        k.aloitaAsiointi();
+        k.lisaaKoriin(1);
+        k.lisaaKoriin(1);
+        k.poistaKorista(1);
         k.tilimaksu("pekka", "12345");
 
         verify(pankki).tilisiirto("pekka", 42, "12345", "33333-44455", 5);
