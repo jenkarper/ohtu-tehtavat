@@ -14,6 +14,7 @@ dependencies {
     compile group: 'org.springframework', name: 'spring-context', version: springVersion
     compile group: 'org.springframework', name: 'spring-context-support', version: springVersion
     compile group: 'org.springframework', name: 'spring-beans', version: springVersion
+    testCompile group: 'org.mockito', name: 'mockito-all', version: '1.10.19'
 }
 
 application {
