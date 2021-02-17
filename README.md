@@ -29,3 +29,23 @@
 - [Tehtävät 5-6: LoginCucumber](https://github.com/jenkarper/ohtu-tehtavat/tree/main/viikko3/LoginCucumber)
 
 - [Tehtävät 7-11: WebLogin](https://github.com/jenkarper/ohtu-tehtavat/tree/main/viikko3/WebLogin)
+
+## Viikko 4
+
+- [Tehtävä 1: MockitoDemo](https://github.com/jenkarper/ohtu-tehtavat/tree/main/viikko4/MockitoDemo)
+
+- [Tehtävä 2: MaksukorttiMockito](https://github.com/jenkarper/ohtu-tehtavat/tree/main/viikko4/MaksukorttiMockito)
+
+- [Tehtävät 3-4: Mockito, osat 3-4](https://github.com/jenkarper/ohtu-tehtavat/tree/main/viikko2/Verkkokauppa1)
+
+- [Tehtävä 5: IntJoukkoSovellus](https://github.com/jenkarper/ohtu-tehtavat/tree/main/viikko4/IntJoukkoSovellus)
+
+- [Tehtävä 6: Tennis](https://github.com/jenkarper/ohtu-tehtavat/tree/main/viikko4/Tennis) (toteutettu kolmen hengen ryhmässä)
+
+## Viikko 5
+
+- [Tehtävä 1: Tagit](https://github.com/jenkarper/ohtu-tehtavat/tags)
+
+- [Tehtävät 4-5: LaskinFX11](https://github.com/jenkarper/ohtu-tehtavat/tree/main/viikko5/LaskinFX11)
+
+- Tehtävä 6: Retrospektiivitekniikat
