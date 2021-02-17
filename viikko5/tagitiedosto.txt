@@ -1,1 +1,2 @@
-Kevy tagi (lightweight tag) on käytännössä vain osoitin johonkin tiettyyn commitiin.
+Kevyt tagi (lightweight tag) on käytännössä vain osoitin johonkin tiettyyn commitiin.
+Merkitty tai annotoitu tagi (annotated tag) sisältää osoittimen lisäksi muutakin tietoa.
