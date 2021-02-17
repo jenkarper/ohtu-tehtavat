@@ -1,1 +1,4 @@
-tehtava4/
+**.tmp
+**/build/
+**/.gradle/
+viikko2/tehtava4/
