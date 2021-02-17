@@ -1,4 +1,6 @@
-# ohtu-tehtavat
+# Ohjelmistotuotanto kevät 2021
+
+Ohjelmistotuotanto-kurssin tehtävien palautusrepositorio
 
 ## Viikko 1
 
