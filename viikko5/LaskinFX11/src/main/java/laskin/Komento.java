@@ -10,6 +10,7 @@ public abstract class Komento {
     protected Button nollaa;
     protected Button undo;
     protected Sovelluslogiikka sovellus;
+    protected int edellinenTulos;
 
     public Komento(TextField tuloskentta, TextField syotekentta, Button nollaa, Button undo, Sovelluslogiikka sovellus) {
         this.tuloskentta = tuloskentta;
@@ -21,7 +22,12 @@ public abstract class Komento {
 
     public abstract void suorita();
 
-    public abstract void peru();
+    public void peru() {
+        sovellus.setTulos(edellinenTulos);
+        asetaTuloskentta();
+        tarkistaNollatulos();
+        undo.disableProperty().set(true);
+    }
 
     protected void tarkistaNollatulos() {
         if (sovellus.tulos() == 0) {
