@@ -20,5 +20,4 @@ public class Not implements Matcher {
 
         return true;
     }
-    
 }

@@ -21,5 +21,4 @@ public class Or implements Matcher {
         }
         return match;
     }
-
 }

@@ -25,5 +25,4 @@ public class HasFewerThan implements Matcher {
             throw new IllegalStateException("Player does not have field "+fieldName.substring(3, fieldName.length()).toLowerCase());
         }  
     }
-    
 }
