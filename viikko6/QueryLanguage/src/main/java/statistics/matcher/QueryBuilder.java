@@ -1,38 +1,36 @@
 package statistics.matcher;
 
 public class QueryBuilder {
-    private Matcher[] matcherSet;
+    private Matcher matcher;
     
     
     public QueryBuilder() {
-        this.matcherSet = new Matcher[]{new All()};
+        this.matcher = new All();
     }
     
     public QueryBuilder playsIn(String team) {
-        addMatcher(new PlaysIn(team));
+        this.matcher = new And(new PlaysIn(team), this.matcher);
         return this;
     }
     
     public QueryBuilder hasAtLeast(int value, String category) {
-        addMatcher(new HasAtLeast(value, category));
+        this.matcher = new And(new HasAtLeast(value, category), this.matcher);
         return this;
     }
     
     public QueryBuilder hasFewerThan(int value, String category) {
-        addMatcher(new HasFewerThan(value, category));
+        this.matcher = new And(new HasFewerThan(value, category), this.matcher);
+        return this;
+    }
+    
+    public QueryBuilder oneOf(Matcher first, Matcher second) {
+        this.matcher = new Or(first, second);
         return this;
     }
     
     public Matcher build() {
-        return new And(matcherSet);
-    }
-    
-    private void addMatcher(Matcher matcher) {
-        Matcher[] newMatchers = new Matcher[this.matcherSet.length + 1];
-        for (int i = 0; i < this.matcherSet.length; i++) {
-            newMatchers[i] = this.matcherSet[i];
-        }
-        newMatchers[this.matcherSet.length] = matcher;
-        this.matcherSet = newMatchers;
+        Matcher returnValue = this.matcher;
+        this.matcher = new All();
+        return returnValue;
     }
 }
