@@ -1,0 +1,11 @@
+## Miniprojekti Mustanaamiot, ensimmäisen sprintin retrospektiivi
+
+Pidimme retrospektiivin yhteisestä päätöksestä kurssimateriaalissa mainitulla tekniikalla Glad, Sad, Mad, koska se tuntui helpoimmalta soveltaa pieneen, alkuvaiheessa olevaan projektiin. Se oli myös helppo toteuttaa etänä Flinga-palvelun avulla. Ensimmäinen retrospektiivi tehtiin yhdessä ohjaajan kanssa.
+
+Aluksi jokainen tiimiläinen kirjasi omia ajatuksiaan Glad-, Sad- ja Mad-sarakkeiden alle Flingan muistilappuina. Kun laput oli lisätty, aloimme käydä kommentteja läpi. Glad, Sad, Mad -tekniikkaan kuuluu keskusteluun otettavien kommenttien karsinta tarvittaessa äänestyksen perusteella, mutta päädyimme jättämään karsinnan väliin, koska arvelimme ajan riittävän kaikkien kommenttien läpikäyntiin.
+
+Aloitimme Glad-sarakkeen myönteisistä kommenteista, joita olikin kaikista eniten. Ryhmämme oli tyytyväinen hyvin sujuneeseen yhteistyöhön ja siihen, että sprintti oli käynnistynyt reippaasti heti suunnittelupalaverin jälkeen. Toteutimme suurimman osan ensimmäisen sprintin taskeista pari- tai ryhmätyönä, mikä osoittautui hyväksi ratkaisuksi. Jokainen tiimiläinen osallistui työhön aktiivisesti, ja työnjako onnistui sujuvasti ja tasapuolisesti. Olimme myös tyytyväisiä syntyneen koodin laatuun.
+
+Sad-sarakkeen laput liittyivät ohjelman rakenteeseen sekä palautesession aikanakin esiin nousseeseen katselmointiin. Ohjelman rakenne ei vielä noudattanut single responsibility -periaatetta, ja luokkien rajapintoihin kaivattiin parempaa suunnittelua. Emme myös olleet juuri katselmoineet toistemme koodia, joten esimerkiksi tietokannan käsittelyn hoitavan koodin kirjoittaneet tiimiläiset eivät olleet tutustuneet sovelluslogiikan koodiin kuin joiltakin osin. Lisäsimmekin toisen sprintin suunnittelupalaverissa backlogiin katselmoinnin lisäämisen Definition of Done -määrittelyyn. Sprinttiin otettiin myös käyttöliittymä- ja sovelluslogiikkakoodin refaktorointi single responsibility -periaatetta paremmin noudattavaksi.
+
+Mad-sarakkeessa tiimi harmitteli pakollista etätyöskentelyä, mikä jonkin verran haittaa ryhmäytymistä ja on tässä vaiheessa jo kaiken kaikkiaan turhauttavaa. Jonkin verran harmia aiheuttivat myös VSCoden Git-ominaisuudet. Koronalle emme voi mitään, mutta työkalujen käytössä harjaannumme koko ajan!
