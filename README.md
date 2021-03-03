@@ -50,7 +50,8 @@ Ohjelmistotuotanto-kurssin tehtävien palautusrepositorio
 
 - [Tehtävät 4-5: LaskinFX11](https://github.com/jenkarper/ohtu-tehtavat/tree/main/viikko5/LaskinFX11)
 
-- Tehtävä 6: Retrospektiivitekniikat
+- [Tehtävä 6: Retrospektiivitekniikat](https://github.com/jenkarper/ohtu-tehtavat/blob/main/retro.md)
 
 ## Viikko 6
-- [Tehtävät 2-4: QueryLanguage](https://github.com/jenkarper/ohtu-tehtavat/tree/main/viikko6/QueryLanguage)
+
+- [Tehtävät 2-5: QueryLanguage](https://github.com/jenkarper/ohtu-tehtavat/tree/main/viikko6/QueryLanguage)
