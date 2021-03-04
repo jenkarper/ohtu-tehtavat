@@ -1,6 +1,6 @@
 ## Miniprojekti Mustanaamiot, ensimmäisen sprintin retrospektiivi
 
-Pidimme retrospektiivin yhteisestä päätöksestä kurssimateriaalissa mainitulla tekniikalla Glad, Sad, Mad, koska se tuntui helpoimmalta soveltaa pieneen, alkuvaiheessa olevaan projektiin. Se oli myös helppo toteuttaa etänä Flinga-palvelun avulla. Ensimmäinen retrospektiivi tehtiin yhdessä ohjaajan kanssa.
+Pidimme retrospektiivin yhteisestä päätöksestä kurssimateriaalissa mainitulla tekniikalla *Glad, Sad, Mad*, koska se tuntui helpoimmalta soveltaa pieneen, alkuvaiheessa olevaan projektiin. Se oli myös helppo toteuttaa etänä Flinga-palvelun avulla. Ensimmäinen retrospektiivi tehtiin yhdessä ohjaajan kanssa.
 
 Aluksi jokainen tiimiläinen kirjasi omia ajatuksiaan Glad-, Sad- ja Mad-sarakkeiden alle Flingan muistilappuina. Kun laput oli lisätty, aloimme käydä kommentteja läpi. Glad, Sad, Mad -tekniikkaan kuuluu keskusteluun otettavien kommenttien karsinta tarvittaessa äänestyksen perusteella, mutta päädyimme jättämään karsinnan väliin, koska arvelimme ajan riittävän kaikkien kommenttien läpikäyntiin.
 

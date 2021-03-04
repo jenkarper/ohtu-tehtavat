@@ -55,3 +55,5 @@ Ohjelmistotuotanto-kurssin tehtävien palautusrepositorio
 ## Viikko 6
 
 - [Tehtävät 2-5: QueryLanguage](https://github.com/jenkarper/ohtu-tehtavat/tree/main/viikko6/QueryLanguage)
+
+## Viikko 7
