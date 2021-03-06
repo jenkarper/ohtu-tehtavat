@@ -59,3 +59,5 @@ Ohjelmistotuotanto-kurssin tehtävien palautusrepositorio
 ## Viikko 7
 
 - [Tehtävät 3-4: KPS yksin- ja kaksinpeli](https://github.com/jenkarper/ohtu-tehtavat/tree/main/viikko7/KiviPaperiSakset) (toteutettu kolmen hengen ryhmässä)
+
+- [Tehtävä 5: Pull requestin mergeäminen](https://github.com/jenkarper/ohtu-tehtavat/blob/main/MERGE.md)
