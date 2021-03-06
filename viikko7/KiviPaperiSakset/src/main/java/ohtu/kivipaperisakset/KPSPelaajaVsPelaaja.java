@@ -4,10 +4,8 @@ import java.util.Scanner;
 
 public class KPSPelaajaVsPelaaja extends KiviPaperiSakset {
 
-    private static final Scanner scanner = new Scanner(System.in);
-
-    public KPSPelaajaVsPelaaja(Peliparametrit parametrit) {
-        super(parametrit);
+    public KPSPelaajaVsPelaaja(Peliparametrit parametrit, Scanner scanner) {
+        super(parametrit, scanner);
     }
 
     @Override

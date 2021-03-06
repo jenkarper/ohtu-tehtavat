@@ -3,16 +3,10 @@ package ohtu.kivipaperisakset;
 
 import java.util.Scanner;
 
-import java.util.Scanner;
-
-// Kivi-Paperi-Sakset, jossa voidaan valita pelataanko vastustajaa
-// vastaan vai ei
 public class KPSParempiTekoaly extends KiviPaperiSakset  {
 
-    private static final Scanner scanner = new Scanner(System.in);
-
-    public KPSParempiTekoaly(Peliparametrit parametrit) {
-        super(parametrit);
+    public KPSParempiTekoaly(Peliparametrit parametrit, Scanner scanner) {
+        super(parametrit, scanner);
     }
 
     @Override

@@ -4,10 +4,8 @@ import java.util.Scanner;
 
 public class KPSTekoaly extends KiviPaperiSakset {
 
-    private static final Scanner scanner = new Scanner(System.in);
-
-    public KPSTekoaly(Peliparametrit parametrit) {
-        super(parametrit);
+    public KPSTekoaly(Peliparametrit parametrit, Scanner scanner) {
+        super(parametrit, scanner);
     }
 
     @Override
