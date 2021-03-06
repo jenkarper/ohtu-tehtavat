@@ -57,3 +57,5 @@ Ohjelmistotuotanto-kurssin tehtävien palautusrepositorio
 - [Tehtävät 2-5: QueryLanguage](https://github.com/jenkarper/ohtu-tehtavat/tree/main/viikko6/QueryLanguage)
 
 ## Viikko 7
+
+- [Tehtävät 3-4: KPS yksin- ja kaksinpeli](https://github.com/jenkarper/ohtu-tehtavat/tree/main/viikko7/KiviPaperiSakset) (toteutettu kolmen hengen ryhmässä)
